@@ -1,0 +1,17 @@
+{
+    "smallCompany": {
+        "turnoverMax": 50000000,
+        "fixedAssetsMax": 250000000,
+        "exempt": true
+    },
+    "mediumCompany": {
+        "turnoverMin": 50000001,
+        "turnoverMax": 250000000,
+        "rate": 0.20
+    },
+    "largeCompany": {
+        "turnoverMin": 250000001,
+        "rate": 0.30
+    },
+    "developmentLevyRate": 0.04
+}

@@ -1,0 +1,42 @@
+{
+    "effectiveFrom": "2026-01-01",
+    "brackets": [
+        {
+            "from": 0,
+            "to": 800000,
+            "rate": 0.00
+        },
+        {
+            "from": 800000,
+            "to": 3000000,
+            "rate": 0.15
+        },
+        {
+            "from": 3000000,
+            "to": 12000000,
+            "rate": 0.18
+        },
+        {
+            "from": 12000000,
+            "to": 25000000,
+            "rate": 0.21
+        },
+        {
+            "from": 25000000,
+            "to": 50000000,
+            "rate": 0.23
+        },
+        {
+            "from": 50000000,
+            "to": null,
+            "rate": 0.25
+        }
+    ],
+    "reliefs": {
+        "rentReliefRate": 0.20,
+        "rentReliefCap": 500000,
+        "pensionCap": 200000,
+        "nhfCap": 50000,
+        "nhisCap": 50000
+    }
+}
